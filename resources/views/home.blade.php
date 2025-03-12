@@ -4,76 +4,45 @@
 <!-- Hero Section -->
 <div class="jumbotron text-center bg-light py-5">
     <h1 class="display-4">Selamat Datang di ErlanApp</h1>
-    <p class="lead">Aplikasi Laravel sederhana yang menampilkan fitur-fitur modern dengan Laravel Blade.</p>
+    <p class="lead">Website sederhana yang dibuat sepenuh hati❤️.</p>
     <a href="https://jobsheet4.radivahera.my.id/profile" class="btn btn-primary btn-lg">Lihat Profil</a>
 </div>
 
 <!-- Features Section -->
-<div class="container mt-5">
-    <h2 class="text-center mb-4">Fitur Unggulan</h2>
-    <div class="row">
-        <div class="col-md-4 mb-3">
-            <div class="card h-100">
-                <img src="https://jobsheet4.radivahera.my.id/images/feature1.png" class="card-img-top h-70" alt="Responsif">
-                <div class="card-body">
-                    <h5 class="card-title">Responsif</h5>
-                    <p class="card-text">Desain yang responsif dan modern, didukung oleh Bootstrap 5.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="card h-100">
-                <img src="https://jobsheet4.radivahera.my.id/images/feature2.png" class="card-img-top" alt="Mudah Disesuaikan">
-                <div class="card-body">
-                    <h5 class="card-title">Mudah Disesuaikan</h5>
-                    <p class="card-text">Tampilan dan komponen dapat dengan mudah disesuaikan sesuai kebutuhan.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="card h-100">
-                <img src="https://jobsheet4.radivahera.my.id/images/feature3.png" class="card-img-top" alt="Blade Templating">
-                <div class="card-body">
-                    <h5 class="card-title">Blade Templating</h5>
-                    <p class="card-text">Menggunakan Laravel Blade untuk pembuatan tampilan yang dinamis dan reusable.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <!-- Portfolio/Proyek Terkini Section -->
 <div class="container mt-5">
-    <h2 class="text-center mb-4">Proyek Terkini</h2>
+    <h2 class="text-center mb-4">Projek Acuuuuu 👉👈😖</h2>
     
     <div class="row">
                     <div class="col-md-4 mb-3">
                 <div class="card h-100">
-                    <img src="https://jobsheet4.radivahera.my.id/images/project1.jpg" class="card-img-top" alt="Proyek A">
+                    <img src="sspj1.PNG" class="card-img-top" alt="Proyek A">
                     <div class="card-body">
-                        <h5 class="card-title">Proyek A</h5>
-                        <p class="card-text">Deskripsi singkat proyek A.</p>
-                        <a href="#" class="btn btn-outline-primary btn-sm">Selengkapnya</a>
+                        <h5 class="card-title">Projek 1</h5>
+                        <p class="card-text">Projek pertama acuuuuu .</p>
+                        <a href="https://lanstore.erlancihuy.my.id/" class="btn btn-outline-primary btn-sm" target="_blank">Selengkapnya</a>
                     </div>
                 </div>
             </div>
                     <div class="col-md-4 mb-3">
                 <div class="card h-100">
-                    <img src="https://jobsheet4.radivahera.my.id/images/project2.jpg" class="card-img-top" alt="Proyek B">
+                    <img src="sspj2.PNG" class="card-img-top" alt="Proyek B">
                     <div class="card-body">
-                        <h5 class="card-title">Proyek B</h5>
-                        <p class="card-text">Deskripsi singkat proyek B.</p>
-                        <a href="#" class="btn btn-outline-primary btn-sm">Selengkapnya</a>
+                        <h5 class="card-title">Proyek 2</h5>
+                        <p class="card-text">Projek kedua acuuuu.</p>
+                        <a href="https://manchester.erlancihuy.my.id" class="btn btn-outline-primary btn-sm" target="_blank">Selengkapnya</a>
                     </div>
                 </div>
             </div>
                     <div class="col-md-4 mb-3">
                 <div class="card h-100">
-                    <img src="https://jobsheet4.radivahera.my.id/images/project3.jpg" class="card-img-top" alt="Proyek C">
+                    <img src="sspj3.PNG" class="card-img-top" alt="Proyek C">
                     <div class="card-body">
-                        <h5 class="card-title">Proyek C</h5>
-                        <p class="card-text">Deskripsi singkat proyek C.</p>
-                        <a href="#" class="btn btn-outline-primary btn-sm">Selengkapnya</a>
+                        <h5 class="card-title">Proyek 3</h5>
+                        <p class="card-text">Projek ketiga acuuuu.</p>
+                        <a href="https://bakeryshop.erlancihuy.my.id" class="btn btn-outline-primary btn-sm" target="_blank">Selengkapnya</a>
                     </div>
                 </div>
             </div>

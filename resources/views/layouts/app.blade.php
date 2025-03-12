@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <style>
         body {
-             background: linear-gradient(135deg, #00c6ff, #0072ff);
+             background: linear-gradient(135deg,rgb(0, 255, 195),rgb(56, 140, 219));
             }
+        .navbar{
+            background-color: linear-gradient(135deg,rgb(0, 255, 195),rgb(56, 140, 219));
+        }
     </style>
 </head>
 <body>
@@ -21,10 +24,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/profile">Profile</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/kontak">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('home')}} ">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('profile')}}">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('about')}}">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact Us</a></li>
                 </ul>
             </div>
         </div>

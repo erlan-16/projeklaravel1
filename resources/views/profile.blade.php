@@ -7,17 +7,20 @@
     </div>
     <div class="card-body text-center">
         <img src="Bung_amba.webp" alt="Profile Picture" class="rounded-circle border border-3 border-gray mb-3" width="150">
-        <h4 class="fw-bold">Erlan Eka Putra Susanto</h4>
-        <p class="text-muted mb-1"><i class="bi bi-envelope"></i> erlaneka005@gmail.com</p>
-        <p class="text-muted">Siswa SMKN 1 Sayung</p>
+        <h4 class="fw-bold">{{$profile['name']}}</h4>
+        <p class="text-muted mb-1"><i class="bi bi-envelope"></i> {{$profile['email']}}</p>
+        <p class="text-muted">{{$profile['bio']}}</p>
         
+        @if(count($profile['skills'])  >0 )
         <h5 class="mt-3">Skil Guwejh</h5>
         <div class="d-flex justify-content-center flex-wrap">
-            <span class="badge bg-primary m-1">👨‍🍳 Masak</span>
-            <span class="badge bg-danger m-1">🧤 Kiper</span>
-            <span class="badge bg-warning text-dark m-1">💡 Pasang Lampu</span>
-            <span class="badge bg-info text-dark m-1">🔥 Pasang Gas</span>
+            @foreach($profile['skills'] as $skill)
+            <span class="badge bg-danger m-1">{{$skill}} </span>
+            @endforeach
         </div>
+        @else
+        <p>Tidak ada skill yang ditampilkan</p>
+        @endif
     </div>
     </div>
 @endsection
